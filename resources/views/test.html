@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pustok - Featured Products</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+}
+
+.site-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #5CB85C; /* Pustok logo color */
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #333;
+}
+
+.nav-link.active {
+    color: #5CB85C;
+}
+
+.product-card {
+    border: 1px solid #e3e3e3;
+    transition: all 0.3s ease;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+.badge-danger {
+    background-color: #d9534f;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <div class="text-center mb-4">
+            <h1 class="site-title">Pustok.</h1>
+            <nav class="nav justify-content-center">
+                <a class="nav-link active" href="#">Featured Products</a>
+                <a class="nav-link" href="#">New Arrivals</a>
+                <a class="nav-link" href="#">Most Viewed Products</a>
+            </nav>
+        </div>
+        <div class="row">
+            <!-- Product Card Start -->
+            <div class="col-md-3 mb-4">
+                <div class="card product-card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Product Image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Beats EP Wired On-Ear Headphone - Black</h5>
+                        <p class="card-text">£51.20 <span class="text-muted"><s>£51.20</s></span> <span class="badge badge-danger">20% OFF</span></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Card End -->
+
+            <!-- Copy the above block and modify content to add more products -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
